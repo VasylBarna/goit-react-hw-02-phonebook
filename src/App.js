@@ -28,7 +28,7 @@ class App extends Component {
       contact => contact.name.toLowerCase() === text.toLowerCase(),
     );
     if (findContact) {
-      alert(text + `is already in contacts`);
+      alert(text + ` is already in contacts`);
       return;
     }
     this.setState({
